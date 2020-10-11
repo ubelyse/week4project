@@ -49,3 +49,12 @@ body{
     transform:  scale(1.2);
     opacity: 0.5;
 }
+.orderform{
+    background-image: url(../pizzanames/formbackground.jpg);
+    background-size: cover;
+    color: white;
+}
+
+label{
+    color: whitesmoke;
+}
