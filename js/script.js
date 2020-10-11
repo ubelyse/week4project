@@ -13,7 +13,10 @@ var order = function(number1, number2, number3,number4,number5,number6) {
       var number5 = parseInt($("#pizzadelivery").val());
       var number6 = parseInt($("#pizzaquantity").val());
       var result = order(number1, number2,number3,number4,number5,number6);
-      alert(result+ "Rwf");
+      alert("You ordered for a "+ $( "#pizza option:selected" ).text()+""+
+      $( "#pizzasize option:selected" ).text()+"pizza with "+$( "#pizzacrust option:selected" ).text()+"and "+
+      $( "#pizzatoppings option:selected" ).text()+"The total cost is:"
+      +result+ "Rwf");
     });
   });
 
