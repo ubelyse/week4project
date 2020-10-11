@@ -4,6 +4,10 @@ This is Belyse Uwambayinema
 A Moringa Student
 ### Project Description
 This project is about my pizza place that can allow our viewers to order for different pizza of different size they want. Enjoy!!!
+## Live Page
+![Bello's Pizza Place](belysepizza.png)
+## Check out my site
+https://ubelyse.github.io/week4project/
 ### Setup Installation
 * Terminal
 * Visual Code
