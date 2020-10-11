@@ -1,3 +1,51 @@
 body{
     background-color: darkred;
 }
+.pizzaheader{
+    background-image: url(../pizzanames/backgroundpizza.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.pizzasubheader{
+    padding-top: 10%;
+    color: #FFFF;
+}
+
+
+.pizza-names{
+    position: relative;
+    overflow: hidden;
+}
+
+.pizzalk{
+    position: absolute;
+    opacity: 0;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+}
+
+.pizza-names:hover .pizzalk {
+    opacity: 2;
+}
+
+.pizzalk:hover {
+    border: 4px solid darkred;
+    color: white;
+}
+
+.pizza-names:hover {
+    outline: 10px solid orange;
+}
+
+.pizzaimg {
+    transition: all 2s ease;
+}
+
+.pizza-names:hover .pizzaimg {
+    transform:  scale(1.2);
+    opacity: 0.5;
+}
