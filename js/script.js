@@ -26,9 +26,19 @@ var order = function(number1, number2, number3,number4,number5,number6) {
   
     if (selectedId == "delivery") {
        var address= prompt("PLease Enter your delivery address");
-       var deliveryfee= $('#delivery').val();
-       alert("Your order will be delivered at: "+ address);
+       if (address === "") {
+        // user pressed OK, but the input field was empty
+        alert("you didn't enter a valid address");
+    } else if (address) {
+        // user typed something and hit OK
+        alert("your order will be delivered at: "+ address);
+        var deliveryfee= $('#delivery').val();
       alert("The delivery fee is:"+ deliveryfee);
+    } else {
+        // user hit cancel
+        address.stop();
+    }
+       
     }
   });
 });
