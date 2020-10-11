@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/jquery-3.5.1.js">
-    <link rel="stylesheet" href="js/script.js">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
     <div class="container text-center">
@@ -105,18 +105,18 @@
             <form id="order">
                 <h1>FILL THE FORM TO PLACE YOUR ORDER</h1>
                 <label>Pizza Available</label><br>
-                <select name="twonum" id="pizza" required>
+                <select id="pizza" required>
                     <option value=""></option>
-                    <option value="10000 Rwf">margaritha 1000Rwf</option>
-                    <option value="12000 Rwf">greek 12000Rwf</option>
-                    <option value="15000 Rwf">neopolitan 15000Rwf</option>
-                    <option value="15000 Rwf">scisilan 15000Rwf</option>
-                    <option value="16000 Rwf">california 16000Rwf</option>
-                    <option value="12000 Rwf">detroit 12000Rwf</option>
+                    <option value="10000">margaritha 1000Rwf</option>
+                    <option value="12000">greek 12000Rwf</option>
+                    <option value="15000">neopolitan 15000Rwf</option>
+                    <option value="15000">scisilan 15000Rwf</option>
+                    <option value="16000">california 16000Rwf</option>
+                    <option value="12000">detroit 12000Rwf</option>
                 </select><br>
                 
                 <label>Size</label><br>
-                <select name="twonum" id="pizzasize" required>
+                <select id="pizzasize" required>
                     <option value=""></option>
                     <option value="1000" id="small">Small 1000Rwf</option>
                     <option value="2000">regular 2000Rwf</option>
@@ -125,7 +125,7 @@
                 </select><br>
                 
                 <label>Crust</label><br>
-                <select name="twonum" id="pizzacrust" required>
+                <select id="pizzacrust" required>
                     <option value=""></option>
                     <option value="500">neopolitan 500Rwf</option>
                     <option value="250">thin 250Rwf</option>
@@ -133,7 +133,7 @@
                 </select><br>
                 
                 <label>Toppings</label><br>
-                <select name="twonum" id="pizzatoppings" required>
+                <select id="pizzatoppings" required>
                     <option value=""></option>
                     <option value="350" label="mushrooms 350Rwf"></option>
                     <option value="250" label="pepperoni 250Rwf"></option>
@@ -142,7 +142,7 @@
                 </select><br>
                 
                 <label>Delivery</label><br>
-                <select name="twonum" id="pizzadelivery" class="add5" required>
+                <select id="pizzadelivery" class="pizzadelivery" required>
                     <option value=""></option>
                     <option value="0" label="pickup"></option>
                     <option value="1000" class="delivery" id="delivery" label="delivery 1000Rwf"></option> 
