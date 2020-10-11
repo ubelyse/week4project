@@ -42,3 +42,12 @@ var order = function(number1, number2, number3,number4,number5,number6) {
     }
   });
 });
+
+function refreshpage(){
+    pizza.val= "";
+    pizzasize.val= "";
+    pizzacrust.val= "";
+    pizzatoppings.val= "";
+    pizzadelivery.val= "";
+    pizzaquantity.val="";
+}
